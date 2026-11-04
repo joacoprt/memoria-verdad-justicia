@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+html {
+    
+    background-color: azure;
+}
+body {
+    width: 50%;
+    background-color: rgb(138, 206, 211);
+    align-self: center;
+    margin: auto;
+    
+}
+
+.hero {
+    padding-top: 1rem;
+}
+
+header {
+    background-color: rgb(69, 116, 177);
+}
+nav {
+    border-top: double #ffffff 1rem;
+}
+
+
+
+
+
+
+
+
+
+

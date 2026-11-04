@@ -5,22 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memoria Activa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
     <header>
-        <div>
+        <div class="container">
             <h1>Memoria Activa</h1>
             <h2>a 50 años del Golpe Cívico-Militar</h2>
         </div>
-        <div >
-            <nav>
-
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Memoria">50 años</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Linea de tiempo</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#form">Formulario</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <main class="container">
+        <section class="hero" id="Memoria">
+        <div class="container-fluid" style="width: 52rem;">
+            <img src="./IMG/nunca_mas.jpg" class="img-fluid rounded" alt="nuncaMas50Años">
+            <p class="lead">
+                A medio siglo del golpe de Estado del 24 de marzo de 1976, la memoria no es un simple ejercicio de nostalgia, sino una herramienta viva para sostener el presente y construir el futuro.
+            </p>
+        </div>
+    </section>
+    <div class="container py-5" id="timeline">
+        <div class="position-relative">
+            
+            <div class="position-absolute start-50 translate-middle-x h-100 bg-secondary" style="width: 2px; top: 0;"></div>
+
+            
+            <div class="d-flex justify-content-start mb-4 position-relative">
+            <div class="bg-white p-3 border rounded shadow-sm" style="width: 45%;">
+                <span class="badge bg-primary mb-2">1976</span>
+                <h5>24 de marzo</h5>
+                <h6>Un golpe de Estado cívico-militar derroca a la presidenta constitucional María Estela Martínez de Perón. Asume una Junta Militar.</h6>
+            
+            </div>
+            </div>
+
+            
+            <div class="d-flex justify-content-end mb-4 position-relative">
+            <div class="bg-white p-3 border rounded shadow-sm" style="width: 45%;">
+                <span class="badge bg-success mb-2">1976</span>
+                <h5>Inicio del terrorismo de Estado</h5>
+                <h6> Se disuelve el Congreso, se prohíben los partidos políticos y los sindicatos, y se implementa un sistema sistemático de desaparición forzada de personas, tortura y centros clandestinos de detención.</h6>
+            </div>
+            </div>
+
+            <div class="d-flex justify-content-start mb-4 position-relative">
+            <div class="bg-white p-3 border rounded shadow-sm" style="width: 45%;">
+                <span class="badge bg-primary mb-2">1977</span>
+                <h5>Comienzan las rondas de las Madres de Plaza de Mayo frente a la Casa Rosada para reclamar por la aparición con vida de sus hijos detenidos-desaparecidos.</h5>
+                <h5>Se forman las Abuelas de Plaza de Mayo para buscar a los bebés y niños secuestrados o nacidos en cautiverio.</h5>
+                
+            </div>
+            </div>
+
+            
+            <div class="d-flex justify-content-end mb-4 position-relative">
+            <div class="bg-white p-3 border rounded shadow-sm" style="width: 45%;">
+                <span class="badge bg-success mb-2">1980</span>
+                <h5>Crisis financiera interna con quiebras de bancos y entidades privadas.</h5>
+                
+            </div>
+            </div>
+
+            <div class="d-flex justify-content-start mb-4 position-relative">
+            <div class="bg-white p-3 border rounded shadow-sm" style="width: 45%;">
+                <span class="badge bg-primary mb-2">1982</span>
+                <h5>2 de Abril</h5>
+                <h6>Tropas argentinas desembarcan en las Islas Malvinas, dando inicio a la Guerra de Malvinas contra el Reino Unido.</h6>
+            
+                
+            </div>
+            </div>
+
+            
+            <div class="d-flex justify-content-end mb-4 position-relative">
+            <div class="bg-white p-3 border rounded shadow-sm" style="width: 45%;">
+                <span class="badge bg-success mb-2">1982</span>
+                <h5>14 de junio</h5>
+                <h6>Tras 72 días de combate y una fuerte derrota militar, las fuerzas argentinas se rinden; mueren 649 soldados argentinos.</h6>
+                
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <footer>
-        &copy;2026 - Nunca Más.   
+        <div class="container">
+            &copy;2026 - Nunca Más.
+        </div>   
     </footer>
 </body>
 </html>
